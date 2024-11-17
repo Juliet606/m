@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="Otxb--_vj_uDHXXctsKf">
-    <mxGraphModel>
+    <mxGraphModel dx="3147" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-1" value="Товары (Products)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-2" value="Типы изделий (ProductTypes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="545" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-3" value="Скидки (Discounts)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-4" value="Поставщики (Suppliers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-5" value="Склады&lt;div&gt;(Warehouse)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-6" value="Продажи (Sales)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-7" value="Наличие на складе (Warehouse&lt;div&gt;_&lt;span style=&quot;background-color: initial;&quot;&gt;inventory)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="545" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-8" value="&lt;br&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;product_id&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-9" value="&lt;div&gt;name&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-10" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;purchase_price&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-12" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;sale_price&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-14" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;product_type_id&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-15" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;type_name&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="565" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-16" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;discount_id&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-17" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;discount_type&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-18" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;discount_name&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-19" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;discount_value&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-20" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;start_date&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-21" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;conditions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-22" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;end_date&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-23" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;supplier_id&lt;br/&gt;(PK)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="465" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-24" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;contact_info&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-25" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;supplier_name&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-26" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;warehouse_id&lt;br/&gt;(PK)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-27" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;capacity&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-28" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;location&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-29" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;sale_id&lt;br/&gt;(PK)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-30" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;sale_date&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="95" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-31" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;quantity&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="155" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-32" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;total_sale_price&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="195" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-33" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;profit&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-37" value="&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;quantity&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-38" value="&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;last_updated&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8x0A3tiKOSuo8KVTrt7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T8x0A3tiKOSuo8KVTrt7-37" target="T8x0A3tiKOSuo8KVTrt7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
